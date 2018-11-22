@@ -1,0 +1,11 @@
+version: '3'
+services:
+  database: 
+    image: mongo
+    ports:
+      - "27019:27017"
+    restart: always
+  program:
+    build: .
+    links:
+      - database
