@@ -62,26 +62,26 @@ ejemplo = {
 
 Query para consultar todas las colecciones que contengan tipo *var* en su código fuente:
 ```CMD
-> db.inicio.find({type:'var'}).pretty()
+> db.general.find({type:'var'}).pretty()
 ```
 
 Query todas las colecciones que contengan tipo *function* en su código fuente:
 ```CMD
-> db.inicio.find({type:'function'}).pretty()
+> db.general.find({type:'function'}).pretty()
 ```
 
 Query todas las colecciones que contengan tipo *class* en su código fuente:
 ```CMD
-> db.inicio.find({type:'class'}).pretty()
+> db.general.find({type:'class'}).pretty()
 ```
 
 Query para consultar una archivo en especifico que contenga un tipo de parámetro:
 
 En este caso, haremos un query para obtener todas las variables del file *test2*:
 ```CMD
-> db.inicio.find({file:'test2', type:'var'}).pretty()
+> db.general.find({file:'test2', type:'var'}).pretty()
 ```
 Query para obtener todas las funciones del file *test2*:
 ```CMD
-> db.inicio.find({file:'test2', type:'functions'}).pretty()
+> db.general.find({file:'test2', type:'functions'}).pretty()
 
