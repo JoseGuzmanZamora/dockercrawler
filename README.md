@@ -60,22 +60,22 @@ ejemplo = {
 
 ## Querys de ejemplo
 
-Query para consultar todas las colecciones que contengan tipo *var* en su código fuente:
+Query para consultar todas las colecciones que contengan atributos tipo *var* en su código fuente:
 ```CMD
 > db.general.find({type:'var'}).pretty()
 ```
 
-Query todas las colecciones que contengan tipo *function* en su código fuente:
+Query todas las colecciones que contengan atributos tipo *function* en su código fuente:
 ```CMD
 > db.general.find({type:'function'}).pretty()
 ```
 
-Query todas las colecciones que contengan tipo *class* en su código fuente:
+Query todas las colecciones que contengan atributos tipo *class* en su código fuente:
 ```CMD
 > db.general.find({type:'class'}).pretty()
 ```
 
-Query para consultar una archivo en especifico que contenga un tipo de parámetro:
+Query para consultar una archivo en especifico que contenga un tipo de parámetro/atributo:
 
 En este caso, haremos un query para obtener todas las variables del file *test2*:
 ```CMD
