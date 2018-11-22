@@ -1,5 +1,8 @@
 # DockerCrawler
 
+José Guzmán Zamora // 
+Juan Fernando González
+
 Este es un Crawler de código fuente Javascript. En pocas palabras lo que hace es construir un árbol abarcador del folder "src" y después analiza cada archivo involucrado. La información indexada está se guarda en una base de datos mongo y se pueden hacer cuantos queries sean necesarios siempre y cuando se cumpla con las premisas del esquema. 
 
 ## Para Comenzar
